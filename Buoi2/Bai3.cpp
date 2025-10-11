@@ -16,17 +16,20 @@ int main(){
 	int tuoi;
 	cout << "tuoi = ";
 	cin >> tuoi;
-	if (tuoi > 0 && tuoi < 6){
+	if(tuoi < 0){
+		cout << "Nhap sai" << endl;
+	}
+	else if (tuoi < 6){
 		cout << "Hoc mau giao" << endl;	
-	} else if (tuoi >= 6 && tuoi < 11){
+	} else if (tuoi < 11){
 		cout << "Hoc cap 1" << endl;
-	} else if (tuoi >= 11 && tuoi < 16){
+	} else if (tuoi < 16){
 		cout << "Hoc cap 2" << endl;
-	} else if (tuoi >= 16 && tuoi < 18) {
+	} else if (tuoi < 18) {
 		cout << "Hoc cap 3" << endl;
-	} else if (tuoi >= 18 && tuoi < 23){
+	} else if (tuoi < 23){
 		cout << "Hoc dai hoc" << endl;
-	} else if (tuoi >= 23 && tuoi <= 65){
+	} else if (tuoi <= 65){
 		cout << "Di lam" << endl;
 	} else {
 		cout << "Nghi huu" << endl;
