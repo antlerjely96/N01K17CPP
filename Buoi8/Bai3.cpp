@@ -8,8 +8,8 @@ int main(){
 	int n;
 	cout << "nhap so phan tu: ";
 	cin >> n;
-	int arr[n];
-	int tong = 0;
+	float arr[n];
+	float tong = 0;
 	for (int i = 0; i < n; i++){
 		cout << "arr["<< i << "] = ";
 		cin >> arr[i];
