@@ -1,5 +1,5 @@
 /*
-	8. Nhap mang so thuc co n phan tu.
+	9. Nhap mang so thuc co n phan tu.
 	Sap xep mang theo chieu tang dan.
 */
 
